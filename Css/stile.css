@@ -1,0 +1,56 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: black;
+}
+.container-grid{
+    width: 1200px;
+    margin: 0 auto;
+    margin-left: 0;
+    padding-left: 0;
+}
+.cabecalho{
+    display:flex;
+    width: 600px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo{
+    display:flex; 
+}
+.menu{
+    width: 800px;
+   height: 200px;
+    display:flex;
+    justify-content: space-between;
+    float: right;
+   align-items:center;
+   
+}
+.menu a{
+    padding:40px;
+    float: right;
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    display:inline;
+    
+}
+.banner{
+    margin:20px;
+    margin-top: 0;
+}
+.menu2 a{
+    color: aliceblue;
+    text-decoration: none;
+    display: inline;
+    padding: 020px;
+    justify-content: space-between;
+
+}
+.menu2:last-child{
+    float:center
+;
+
+}
