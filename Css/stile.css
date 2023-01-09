@@ -1,56 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
 *{
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    background-color: black;
+    
+
+}
+body{
+    background-color: #1E1C21;
+}
+.perfil{
+    padding-top: 20px;
+    background-color: #1E1C21;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 .container-grid{
-    width: 1200px;
-    margin: 0 auto;
-    margin-left: 0;
-    padding-left: 0;
+    height: 40px;
+    padding-bottom: 40px;
+
 }
 .cabecalho{
+    width: 100%;
     display:flex;
-    width: 600px;
     justify-content: space-between;
     align-items: center;
-
+    margin-right: 15%;
+    background-color: #1E1C21;
 }
-.logo{
-    display:flex; 
+a{
+justify-content: space-between;
+font-family: 'Asap', sans-serif;
+text-decoration: none;
+font-size: 32px;
+line-height: 37px;
+font-weight: 700;
 }
-.menu{
-    width: 800px;
-   height: 200px;
-    display:flex;
-    justify-content: space-between;
-    float: right;
-   align-items:center;
-   
-}
-.menu a{
-    padding:40px;
-    float: right;
-    color:rgb(255, 255, 255);
-    text-decoration: none;
-    display:inline;
+.bar{
     
 }
-.banner{
-    margin:20px;
-    margin-top: 0;
+.social{
+    align-items: flex-end;
+    height: 20px;
 }
-.menu2 a{
-    color: aliceblue;
-    text-decoration: none;
-    display: inline;
-    padding: 020px;
+
+.barra{
+    padding-top: 30px;
+    display: flex;
     justify-content: space-between;
+    width: 100%;
+    margin: 0;
+align-items: baseline;
+}
+.search{
+    background: none;
+}
+input[type=text]{
+    border: none;
+    height: 52px;
+    width: 900px;
+    border-bottom-style: double;
+    border-bottom-color:#00C2FF ;
+}
+input::placeholder{
+    font-style: italic;
+    font-size: 18px;
+    font-family: 'Silkscreen', cursive;
+    color: #00C2FF
+}
+.menu{
+padding-inline: 400px;
+height: 1px;
+width: 100%;
+display: flex;
+justify-content: space-between;
 
 }
-.menu2:last-child{
-    float:center
-;
+.menu a{
+display: block;
+text-decoration: none;
+color: #000000;
+-webkit-text-stroke: 1px #00C2FF;
+font-family: 'Asap', sans-serif;
+font-size: 26px;
+text-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+.menu a:hover{
+    font-size: 28px;
+    -webkit-text-stroke-width: 2px;
+}
+.conteudo{
+text-decoration-line:none;
+display: flex;
+justify-content: center;
+width:100%;
+height: 175px;
+padding: 30px;
+font-family: 'Asap';
+font-style: normal;
+font-weight: 900;
+font-size: 36px;
+text-shadow: #000000 4px 4px 4px;
+text-decoration: none;
+color: #FFFFFF;
+background-image: url(../imagens/banner.jpg);
+}
+.destaque{
+    padding-top: 5px;
+    height: 80px;
+    padding-inline-start: 100px ;
+    padding-inline-end: 550px;
+    display: flEX;
+    justify-content: space-between;
+    align-items:center;
+    background-color: #1E1C21;
+}
+.destaque a{
+    color: #000000;
+    text-decoration: none;
+    -webkit-text-stroke: 1px #00C2FF;
+    font-family: 'Asap', sans-serif;
+    font-size: 26px;
+    font-weight: 900;
+}
+.destaque a:hover{
+    font-size: 28px;
+    -webkit-text-stroke-width: 2px;}
 
+.carro{
+    display: absolute;
+    
+}
+.icon{
+    display: absolute;
+    padding-bottom: 5px;
+    
+}
+.catalogo{
+    
+    max-width: 100%;
+    height: 700px;
+    background-color: #1E1C21;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 35px;
+    align-items: baseline;}
+
+.cata1{
+    margin-left: 5px;
+    height: 700px;
+    background-color: #1E1C21;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: baseline;
+}
+.card{
+    
+    box-shadow: #1E1C21;
+    margin-left: 15px;
+    background-color: #1E1C21;
+    line-height: 12px;
+    cursor: pointer;
+}
+.card-body{
+    padding: 10px;    
+    display: table-column;
+}
+
+.card-title{
+    text-align: center;
+}
+.valor{
+    border-radius: 8px;
+    padding-top: 10px;
+    height: 150px;
+    background-color: #99929250;
+}
+
+.card-text1{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    -webkit-text-stroke: 1px #00C2FF;}
+.card-text2{
+   text-align: center;
+}
+.card-text3{
+text-align: center;
+font-size: 25px;
+font-weight: bold;
+color: black;
+-webkit-text-stroke: 1px #00C2FF;}
+.card-text4{
+    text-align: center;
+}
+.cata2{
+    margin-left: 40px;
+    height: 700px;
+    background-color: #1E1C21;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: baseline;
 }
