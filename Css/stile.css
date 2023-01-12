@@ -4,18 +4,35 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
-
-}
+    }
 body{
-    background-color: #1E1C21;
+    b}
+.logo{
+    width:228px; 
+    height:154px;
 }
+
 .perfil{
     padding-top: 20px;
     background-color: #1E1C21;
     display: flex;
     justify-content: space-between;
     width: 100%;
+}
+.carro{
+    padding-top: 12px;
+    width:80px;
+    transition:0.3s;
+}
+.carro:hover{
+    transform: scale(1.4);
+}
+.icon{
+    width: 80px;
+    transition: 0.3s;
+}
+.icon:hover{
+transform: scale(1.4);
 }
 .container-grid{
     height: 40px;
@@ -30,33 +47,39 @@ body{
     margin-right: 15%;
     background-color: #1E1C21;
 }
-a{
-justify-content: space-between;
-font-family: 'Asap', sans-serif;
-text-decoration: none;
-font-size: 32px;
-line-height: 37px;
-font-weight: 700;
+.cliente{
+    position: static;
+    padding: 13px;
+    margin: 20px;
+    position: static;
+    display: flex;
+    height: 100px;
+    width: 200px;
+   
 }
-.bar{
-    
-}
-.social{
-    align-items: flex-end;
-    height: 20px;
+.lupa{
+    position: relative;
+    top:20px;    
+    display: flex;
+    justify-content: first baseline;
+    width: 40px;
 }
 
 .barra{
+    width: 950px;
     padding-top: 30px;
     display: flex;
     justify-content: space-between;
-    width: 100%;
     margin: 0;
-align-items: baseline;
+    align-items: baseline;
+    transition: 0.4s;
 }
 .search{
+    font-size: 20px;
     background: none;
-}
+    color:#FFFFFF;
+    font-family: 'Silkscreen', cursive;
+    }
 input[type=text]{
     border: none;
     height: 52px;
@@ -70,25 +93,33 @@ input::placeholder{
     font-family: 'Silkscreen', cursive;
     color: #00C2FF
 }
+.barra:hover{
+    transform: scale(1.1);
+}
 .menu{
-padding-inline: 400px;
+margin: 10px;
+margin-inline: 10%;
 height: 1px;
-width: 100%;
+min-width: 80%;
+max-width: 100%;
 display: flex;
 justify-content: space-between;
 
 }
 .menu a{
-display: block;
+display: flex;
 text-decoration: none;
 color: #000000;
 -webkit-text-stroke: 1px #00C2FF;
 font-family: 'Asap', sans-serif;
 font-size: 26px;
 text-shadow: 5px 5px 5px rgb(0, 0, 0);
+font-weight: 600;
+transition: 0.2s;
 }
 .menu a:hover{
-    font-size: 28px;
+    transform: scale(1.1);
+    font-size: 29px;
     -webkit-text-stroke-width: 2px;
 }
 .conteudo{
@@ -123,47 +154,41 @@ background-image: url(../imagens/banner.jpg);
     -webkit-text-stroke: 1px #00C2FF;
     font-family: 'Asap', sans-serif;
     font-size: 26px;
-    font-weight: 900;
+    font-weight: 600;
+    transition: 0.2s;
 }
 .destaque a:hover{
-    font-size: 28px;
-    -webkit-text-stroke-width: 2px;}
+    transform: perspective(1.2);
+    font-size: 29px;
+    -webkit-text-stroke-width: 3px;}
 
-.carro{
-    display: absolute;
-    
-}
-.icon{
-    display: absolute;
-    padding-bottom: 5px;
-    
-}
 .catalogo{
-    
     max-width: 100%;
-    height: 700px;
-    background-color: #1E1C21;
-    margin-bottom: 15px;
+    background:#1E1C21;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between ;
     padding-inline: 35px;
-    align-items: baseline;}
+    align-items: center;
+    position: relative;}
 
 .cata1{
+    width: 1920px;
     margin-left: 5px;
-    height: 700px;
-    background-color: #1E1C21;
     margin-bottom: 15px;
     display: flex;
     align-items: baseline;
 }
 .card{
-    
-    box-shadow: #1E1C21;
+    margin: 30px;
+    width: 16rem;
     margin-left: 15px;
-    background-color: #1E1C21;
     line-height: 12px;
     cursor: pointer;
+    transition: 0.5s;
+}
+
+.card:hover{
+    transform: scale(1.1);
 }
 .card-body{
     padding: 10px;    
@@ -199,10 +224,104 @@ color: black;
     text-align: center;
 }
 .cata2{
+    width: 1920px;
     margin-left: 40px;
-    height: 700px;
-    background-color: #1E1C21;
+    height: 600px;
     margin-bottom: 15px;
     display: flex;
     align-items: baseline;
+}
+.rodape{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    background-color: #000000;
+}
+.info{
+    padding: 60px;
+    width: 300px;
+    height: 100%;
+    display: flex;
+    font-size: 14px;
+    color:#FFFFFF
+}
+.segurança{
+    margin-top: 30px;
+    padding-inline: 110px;
+}
+.seg{
+    width:200px;
+    height:100px;
+    cursor:pointer;
+}
+.pagamento{
+    padding-inline:5px;
+}
+.pag{
+    width: 370px;
+    cursor:pointer;
+}
+.certificados{
+    margin: 30px;
+    padding-inline: 100px;
+}
+.cer{
+    width: 90px;
+    cursor:pointer;
+}
+.social{
+    color:#FFFFFF;
+    font-size:14px;
+    margin: 20px;
+    padding-inline: 40px;
+}
+.soc{
+    width: 100px;
+    cursor:pointer;
+}
+.socialinfo{
+    padding-top: 10px
+}
+@media screen and (max-width: 1000px){
+    .logo{
+        width:148px; 
+        height:104px;}
+
+    .barra{
+        width: 450px;
+    }
+    .search{
+        font-size: 18px;
+    }
+    input[type=text]{
+        height: 32px;
+        width: 400px;}
+    input::placeholder{
+        font-size: 12px;
+    }
+    .lupa{
+        width: 28px;
+    }
+    .icon{
+        width: 60px;
+    }
+    .carro{
+        width: 60px;
+    }
+    .menu a{
+        font-size: 18px;
+    }
+    .conteudo{
+        font-size: 26px;
+        height: 140px;
+    }
+    .destaque{
+        padding-top: 5px;
+        height: 50px;
+        padding-inline-start: 50px ;
+        padding-inline-end: 250px;}
+    .destaque a{
+        font-size:16px
+    }
+    
 }
