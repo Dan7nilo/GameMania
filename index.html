@@ -24,9 +24,14 @@
               <img class="lupa" src="./imagens/lupa.png">
             </div>
             <div class="cliente">  
-            <a  href=""> <img class="carro" src="imagens/carro.png"> </a>
-                <a href=""> <img class="icon" src="imagens/icon.png"></a>
+            <a  href="/Html/compras.html"> <img class="carro" src="imagens/carro.png"> </a>
+                <a onclick="login(event)" href="#"> <img class="icon" src="imagens/icon.png"></a>
               </div>
+      <form id="loginpage"> 
+        <input type="text" class="put" placeholder="Usuario" id="log">
+        <input type="password" class="put" placeholder="Senha" id="senha">
+        <input type="submit" class="pu" onclick="logar(); return false">
+      </form>
               <a onclick="mostrarMenu(event)" href="#" id="men"><img class="men-u" src="imagens/menu.png"></a>
           </div>
       </div>
