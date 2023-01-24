@@ -21,12 +21,38 @@ body{
     left: 84%;
     top:8%;
     flex-direction: column;
+    align-items: center;
     margin: 50px auto;
     padding: 20px ;
     width: 280px;
-    height: 250px ;
+    height: 280px ;
     border-radius: 60px;
     z-index: 6; 
+}
+#loginpage p{
+    text-align: center;
+    align-items: center;
+    padding: 2px auto;
+    color: #000000;
+    font-size: 18px;
+}
+#loginpage a{
+flex-direction: column;
+text-align: center;
+border-radius: 30px;
+ background-color: #fdfdfd;
+ width: 200px;
+ color: #000000;
+ text-decoration: none;
+font-weight: bold;
+border-width: 3px;
+border-style:outset;
+border-color: #000000;
+transition: 0.2s;
+}
+#loginpage a:hover{
+    background-color: #d0d0d8;
+    transform: scale(1.1);
 }
 .put{
     border-radius: 10px;
@@ -37,6 +63,7 @@ body{
     z-index: 6;
 }
 .put::placeholder{
+    text-align: center;
     font-size: 22px;
     color: #000000;
 }
@@ -44,10 +71,15 @@ body{
     height: 50px;
     width: 200px;
     margin: 12px auto;
-    font-size: 22px;
+    font-size: 18px;
     background-color:#1E1C21;
     color: #00C2FF;
     border-radius: 20px;
+    font-weight: bold;
+    transition: 0.2s;
+}
+.pu:hover{
+    transform: scale(1.1);
 }
 .perfil{
     padding-top: 20px;
@@ -245,7 +277,7 @@ background-image: url(../imagens/banner.jpg);
     padding: 10px;    
     display: table-column;
 }
-.card-title{
+.card-title {
     text-align: center;
 }
 .valor{
@@ -254,22 +286,22 @@ background-image: url(../imagens/banner.jpg);
     height: 150px;
     background-color: #99929250;
 }
-.card-text1{
+.card-text1 {
     text-align: center;
     font-size: 25px;
     font-weight: bold;
     color: black;
     -webkit-text-stroke: 1px #00C2FF;}
-.card-text2{
+.card-text2 {
    text-align: center;
 }
-.card-text3{
+.card-text3 {
 text-align: center;
 font-size: 25px;
 font-weight: bold;
 color: black;
 -webkit-text-stroke: 1px #00C2FF;}
-.card-text4{
+.card-text4 {
     text-align: center;
 }
 .rodape{
@@ -288,7 +320,7 @@ color: black;
 }
 .segurança{
     margin-top: 30px;
-    padding-inline: 110px;
+    padding-inline: 120px;
 }
 .seg{
     width:200px;
@@ -296,7 +328,7 @@ color: black;
     cursor:pointer;
 }
 .pagamento{
-    padding-inline:5px;
+    padding-inline:100px;
 }
 .pag{
     width: 370px;
@@ -314,7 +346,7 @@ color: black;
     color:#FFFFFF;
     font-size:14px;
     margin: 20px;
-    padding-inline: 40px;
+    padding-inline: 60px;
 }
 .soc{
     width: 100px;

@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    body{
+        background-image:linear-gradient(5deg,gray,#1E1C21);
+        
+        height: 1920px;
+    }
+    a{
+        color: #00C2FF;
+    }
+    .container-grid{
+        margin: 130px;
+        display: flex;
+        justify-content:center;
+        align-items:center;
+    }
+    .logo{
+        position: absolute;
+        left:46%
+    }
+    
+.criarconta{
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(85deg,#190be4,#1E1C21);
+    height: 550px;
+    width: 400px;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    border-style: outset;
+    border-color: #00C2FF;
+}
+.criarconta h1{
+    width:300px;
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Silkscreen', cursive;
+    font-size:28px;
+    color: #000000;
+-webkit-text-stroke: 1px #00C2FF;
+}
+#agreement{
+    width: 15px;
+}
+#agreement, #agreement-label{
+    display: inline-block;
+
+    
+}
+.criarconta p{
+    color:white
+}
+.half-box{
+    font-size: 28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 50px;
+    width: 100px;
+    border-radius: 7px;
+}
+label{
+    width: 300px;
+    text-align: center;
+    font-family: 'Silkscreen', cursive;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+}
+input:focus{
+    border-style: outset;
+    border-color: #00C2FF;
+}
+input{
+    height: 30px;
+    width: 300px;
+    border-radius: 16px;
+}
+form{
+    height: 50px;
+    width: 300px;
+    align-items: baseline;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+    .enviar{
+    
+        font-family: 'Silkscreen',cursive;
+        color: black ;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #cccccc;
+    margin: 30px;
+    height: 40px;
+    width: 300px;
+    border-width: 3px;
+    border-radius: 7px;
+    transition: 0.2s;
+    }
+        .enviar:hover{
+        transform: scale(1.1);
+        background-color: #00C2FF;
+    }
+    /*validações*/
+    .error-validation{
+        color:red;
+        position: absolute;
+        top:57px
+        font-size:16rem;
+    }
+    .template{
+        display:none
+    }
